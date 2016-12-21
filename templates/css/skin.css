@@ -1,0 +1,40 @@
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+RESET & HTML ELEMENTS
+-------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+body {background-color:#FFF; color:#555;}
+a {color:#222;}
+a:hover, a:active, a:focus {color:#444;}
+h1 {color:#222;}
+h2 {color:#222;}
+table.table {border:1px solid #CCC;}
+table.table th, table.table td {border:1px solid #CCC;}
+table.table th {border-bottom:3px solid #222; color:#222;}
+table.table tr.even td {background-color:#EEE;}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+LAYOUT
+-------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#header #logo {color:#FFF;}
+#header #nav li a {color:#FFF;}
+#header #nav li a:hover {text-decoration:underline;}
+#header #nav li.current a {background-color:#FFF; color:#222;}
+	.articles .article-info {border-bottom:1px dotted #CCC; color:#888;}
+	.articles .article-info a {color:#888;}
+	.articles .article-info a:hover {color:#555;}
+	.pagination a.current {background-color:#222; color:#FFF;}
+	.more a {border:1px solid #DDD; border-right:1px solid #CCC; border-bottom:1px solid #CCC; background-color:#EEE; color:#000;}
+	.more a:hover {background-color:#FFF; color:#222;}
+	.menu {border-top:1px dotted #CCC;}
+	.menu li a {border-bottom:1px dotted #CCC;}
+	.menu li.current a {color:#555;}
+	.sponsors {color:#888;}
+	.sponsors li {border-bottom:1px dotted #CCC;}
+#footer {background-color:#EEE;}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+OTHERS
+-------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.input-text {border:1px solid #CCC; border-right:1px solid #EEE; border-bottom:1px solid #EEE; color:#888;}

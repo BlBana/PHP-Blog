@@ -1,0 +1,85 @@
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+RESET & HTML ELEMENTS
+-------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, img, legend, li, ol, p, pre, td, th, ul {margin:0; padding:0; border:0; vertical-align:baseline;}
+address, blockquote, dl, fieldset, form, h1, h2, h3, h4, h5, h6, ol, p, table, ul {margin:15px 0;}
+body {background:url("../design/bg.png") 0 0 repeat-x; font:0.8em/1.5 "arial", sans-serif;}
+h1 {font-size:300%; font-weight:normal;}
+h2 {font-size:220%; font-weight:bold;}
+h3 {font-size:160%; font-weight:normal;}
+h4, h5, h6 {font-size:130%; font-weight:bold;}
+form ul {list-style:none;}
+form li {display:block; padding-bottom:7px;}
+form li label {display:block; padding-bottom:3px;}
+input, select, textarea {font-size:100%; font-family:"arial",sans-serif;}
+table.table {border-collapse:collapse; border-spacing:0;}
+table.table th, table.table td {padding:7px 10px;}
+table.table th {font-weight:bold;}
+ul.ul { list-style:none;}
+ul.ul li {padding-left:15px; }
+ul.ul ul {margin:0 0 0 20px; list-style:none;}
+img.f-left {margin-right:15px;}
+img.f-right {margin-left:15px;}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+LAYOUT
+-------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.main {width:960px; margin:0 auto;}
+#header {position:relative; height:140px; overflow:hidden; background:url("../design/header.png") 50% 0 no-repeat;}
+#header #logo {position:absolute; top:40px; left:0; margin:0; font-size:350%; line-height:1; letter-spacing:-2px; font-weight:normal;}
+#header #logo span {font-weight:bold;}
+#header #nav {position:absolute; top:38px; right:0; list-style:none; font-size:110%;}
+#header #nav li {display:inline;}
+#header #nav li a {display:block; float:left; padding:6px 12px; font-weight:bold; text-decoration:none;}
+#header #nav li a:hover {text-decoration:underline;}
+#header #nav li.current a {border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; text-decoration:none;}
+#section {overflow:hidden; padding:20px 0;}
+#content {float:left; width:680px; text-align:justify;}
+	.articles {margin:0; list-style:none;}
+	.articles h2 {margin:0;}
+	.articles h2 a {text-decoration:none;}
+	.articles .article-info {padding-bottom:10px;}
+	.articles .article-info .comment {padding-left:18px; background:url("../design/comment.gif") 0 50% no-repeat;}
+	.articles .article-info p {margin:0;}
+	.gallery li {display:block; float:left; margin-right:10px;}
+	.pagination {font-size:110%;}
+	.pagination a {padding:5px 10px;}
+	.pagination a.current {border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; text-decoration:none; font-weight:bold;}
+	.more {text-align:right;}
+	.more a {border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; padding:6px 12px; text-decoration:none; font-weight:bold;}
+#aside {float:right; width:250px;}
+	.menu {list-style:none;}
+	.menu li {display:inline;}
+	.menu li a {display:block; padding:5px 0;}
+	.menu li.current a {font-weight:bold; text-decoration:none;}
+	.sponsors {margin:0; list-style:none; font-size:85%;}
+	.sponsors li {padding:10px 0;}
+	.sponsors li a {font-size:115%;}
+#footer {padding:30px 0; background:url("../design/footer.gif") 0 0 repeat-x;}
+#footer p {margin:0;}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+OTHERS
+-------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.box {min-height:1px; _height:1%;}
+.box:after {display:block; visibility:hidden; clear:both; line-height:0; font-size:0; content:".";}
+.fix {float:none; clear:both; width:0; height:0; margin:0; padding:0; border:0; line-height:0; font-size:0;}
+.f-left {float:left !important;}
+.f-right {float:right !important;}
+.t-left {text-align:left !important;}
+.t-center {text-align:center !important;}
+.t-right {text-align:right !important;}
+.t-justify {text-align:justify !important;}
+.va-top {vertical-align:top !important;}
+.va-middle {vertical-align:middle !important;}
+.va-bottom {vertical-align:bottom !important;}
+.nom {margin:0 !important;}
+.nomt {margin-top:0 !important;}
+.nomb {margin-bottom:0 !important;}
+.hidden {position:absolute; left:-1000em; top:auto; width:1px; height:1px; overflow:hidden;}
+.noscreen {display:none;}
+.input-text {padding:5px;}
+.input-submit {padding:3px;}
